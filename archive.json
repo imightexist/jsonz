@@ -1,0 +1,15 @@
+{
+    "name":"concept",
+    "comment":"this will be printed while extracting",
+    "author": "iexist",
+    "encoding":"utf8",
+    "folder":true,
+    "contents":{
+        "foldername":{"folder":true,"contents":{
+            "file.txt":{"folder":false,"contents":"no.","encoding":"utf8"}
+        }},
+        "test.txt":{"folder":false,"contents":"newliĀ\ntest","encoding":"utf8"},
+        "test2.txt":{"folder":false,"contents":"\"asdfăa\"","encoding":"utf8"}
+    },
+    "convert":"zip"
+}
